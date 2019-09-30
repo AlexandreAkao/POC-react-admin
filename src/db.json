@@ -51,20 +51,7 @@
             "id": 1,
             "publicacao": "Time",
             "quantidadeEdicao": 5,
-            "edicoes": [
-                {
-                    "id": 1,
-                    "imagem": "https://imagemlegal.com/imagemlegal.jpg"
-                },
-                {
-                    "id": 2,
-                    "imagem": "https://imagemlegal.com/imagemlegal2.jpg"
-                },
-                {
-                    "id": 3,
-                    "imagem": "https://imagemlegal.com/imagemlegal3.jpg"
-                }
-            ],
+            "edicoes": "http://google.com.br",
             "ultimaPublicacao": "10/02/2019",
             "avaliacao": 4.3,
             "descricao": "Essa revista é massa!",
@@ -74,20 +61,7 @@
             "id": 2,
             "publicacao": "Time",
             "quantidadeEdicao": 5,
-            "edicoes": [
-                {
-                    "id": 1,
-                    "imagem": "https://imagemlegal.com/imagemlegal.jpg"
-                },
-                {
-                    "id": 2,
-                    "imagem": "https://imagemlegal.com/imagemlegal2.jpg"
-                },
-                {
-                    "id": 3,
-                    "imagem": "https://imagemlegal.com/imagemlegal3.jpg"
-                }
-            ],
+            "edicoes": "http://google.com.br",
             "ultimaPublicacao": "10/02/2019",
             "avaliacao": 4.3,
             "descricao": "Essa revista é massa!",
@@ -97,20 +71,7 @@
             "id": 3,
             "publicacao": "Time",
             "quantidadeEdicao": 5,
-            "edicoes": [
-                {
-                    "id": 1,
-                    "imagem": "https://imagemlegal.com/imagemlegal.jpg"
-                },
-                {
-                    "id": 2,
-                    "imagem": "https://imagemlegal.com/imagemlegal2.jpg"
-                },
-                {
-                    "id": 3,
-                    "imagem": "https://imagemlegal.com/imagemlegal3.jpg"
-                }
-            ],
+            "edicoes": "http://google.com.br",
             "ultimaPublicacao": "10/02/2019",
             "avaliacao": 4.3,
             "descricao": "Essa revista é massa!",
@@ -120,20 +81,7 @@
             "id": 4,
             "publicacao": "Time",
             "quantidadeEdicao": 5,
-            "edicoes": [
-                {
-                    "id": 1,
-                    "imagem": "https://imagemlegal.com/imagemlegal.jpg"
-                },
-                {
-                    "id": 2,
-                    "imagem": "https://imagemlegal.com/imagemlegal2.jpg"
-                },
-                {
-                    "id": 3,
-                    "imagem": "https://imagemlegal.com/imagemlegal3.jpg"
-                }
-            ],
+            "edicoes": "http://google.com.br",
             "ultimaPublicacao": "10/02/2019",
             "avaliacao": 4.3,
             "descricao": "Essa revista é massa!",
@@ -143,20 +91,7 @@
             "id": 5,
             "publicacao": "Time",
             "quantidadeEdicao": 5,
-            "edicoes": [
-                {
-                    "id": 1,
-                    "imagem": "https://imagemlegal.com/imagemlegal.jpg"
-                },
-                {
-                    "id": 2,
-                    "imagem": "https://imagemlegal.com/imagemlegal2.jpg"
-                },
-                {
-                    "id": 3,
-                    "imagem": "https://imagemlegal.com/imagemlegal3.jpg"
-                }
-            ],
+            "edicoes": "http://google.com.br",
             "ultimaPublicacao": "10/02/2019",
             "avaliacao": 4.3,
             "descricao": "Essa revista é massa!",
