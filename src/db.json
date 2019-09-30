@@ -1,0 +1,167 @@
+{
+    "posts":[
+       {
+          "id":1,
+          "title":"Post 1"
+       },
+       {
+          "id":2,
+          "title":"Post 2"
+       },
+       {
+          "id":3,
+          "title":"Post 3"
+       }
+    ],
+    "comments":[
+       {
+          "id":1,
+          "body":"some comment",
+          "postId":1
+       },
+       {
+          "id":2,
+          "body":"some comment",
+          "postId":1
+       }
+    ],
+    "profile":{
+       "name":"typicode"
+    },
+    "users":[
+       {
+          "id":1,
+          "name":"Leanne Graham",
+          "username":"Bret",
+          "email":"Sincere@april.biz",
+          "address":{
+             "street":"Kulas Light",
+             "suite":"Apt. 556",
+             "city":"Gwenborough",
+             "zipcode":"92998-3874",
+             "geo":{
+                "lat":"-37.3159",
+                "lng":"81.1496"
+             }
+          }
+       }
+    ],
+    "publicacao": [
+        {
+            "id": 1,
+            "publicacao": "Time",
+            "quantidadeEdicao": 5,
+            "edicoes": [
+                {
+                    "id": 1,
+                    "imagem": "https://imagemlegal.com/imagemlegal.jpg"
+                },
+                {
+                    "id": 2,
+                    "imagem": "https://imagemlegal.com/imagemlegal2.jpg"
+                },
+                {
+                    "id": 3,
+                    "imagem": "https://imagemlegal.com/imagemlegal3.jpg"
+                }
+            ],
+            "ultimaPublicacao": "10/02/2019",
+            "avaliacao": 4.3,
+            "descricao": "Essa revista é massa!",
+            "imagem": "https://imagemtime.com/publicacao"
+        },
+        {
+            "id": 2,
+            "publicacao": "Time",
+            "quantidadeEdicao": 5,
+            "edicoes": [
+                {
+                    "id": 1,
+                    "imagem": "https://imagemlegal.com/imagemlegal.jpg"
+                },
+                {
+                    "id": 2,
+                    "imagem": "https://imagemlegal.com/imagemlegal2.jpg"
+                },
+                {
+                    "id": 3,
+                    "imagem": "https://imagemlegal.com/imagemlegal3.jpg"
+                }
+            ],
+            "ultimaPublicacao": "10/02/2019",
+            "avaliacao": 4.3,
+            "descricao": "Essa revista é massa!",
+            "imagem": "https://imagemtime.com/publicacao"
+        },
+        {
+            "id": 3,
+            "publicacao": "Time",
+            "quantidadeEdicao": 5,
+            "edicoes": [
+                {
+                    "id": 1,
+                    "imagem": "https://imagemlegal.com/imagemlegal.jpg"
+                },
+                {
+                    "id": 2,
+                    "imagem": "https://imagemlegal.com/imagemlegal2.jpg"
+                },
+                {
+                    "id": 3,
+                    "imagem": "https://imagemlegal.com/imagemlegal3.jpg"
+                }
+            ],
+            "ultimaPublicacao": "10/02/2019",
+            "avaliacao": 4.3,
+            "descricao": "Essa revista é massa!",
+            "imagem": "https://imagemtime.com/publicacao"
+        },
+        {
+            "id": 4,
+            "publicacao": "Time",
+            "quantidadeEdicao": 5,
+            "edicoes": [
+                {
+                    "id": 1,
+                    "imagem": "https://imagemlegal.com/imagemlegal.jpg"
+                },
+                {
+                    "id": 2,
+                    "imagem": "https://imagemlegal.com/imagemlegal2.jpg"
+                },
+                {
+                    "id": 3,
+                    "imagem": "https://imagemlegal.com/imagemlegal3.jpg"
+                }
+            ],
+            "ultimaPublicacao": "10/02/2019",
+            "avaliacao": 4.3,
+            "descricao": "Essa revista é massa!",
+            "imagem": "https://imagemtime.com/publicacao"
+        },
+        {
+            "id": 5,
+            "publicacao": "Time",
+            "quantidadeEdicao": 5,
+            "edicoes": [
+                {
+                    "id": 1,
+                    "imagem": "https://imagemlegal.com/imagemlegal.jpg"
+                },
+                {
+                    "id": 2,
+                    "imagem": "https://imagemlegal.com/imagemlegal2.jpg"
+                },
+                {
+                    "id": 3,
+                    "imagem": "https://imagemlegal.com/imagemlegal3.jpg"
+                }
+            ],
+            "ultimaPublicacao": "10/02/2019",
+            "avaliacao": 4.3,
+            "descricao": "Essa revista é massa!",
+            "imagem": "https://imagemtime.com/publicacao"
+        }
+    ]
+ }
+ 

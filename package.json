@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "lowdb": "^1.0.0",
     "prop-types": "^15.7.2",
     "ra-data-json-server": "^2.9.6",
     "react": "^16.10.1",
@@ -14,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "json": "json-server --watch src/db.json"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +32,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "json-server": "^0.15.1"
   }
 }

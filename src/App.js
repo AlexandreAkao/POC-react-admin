@@ -7,18 +7,16 @@ class App extends Component{
         super(props)
 
         this.state = {
-            //dataProvider: jsonServerProvider('http://jsonplaceholder.typicode.com')
-            dataProvider: jsonServerProvider('http://my-json-server.typicode.com/AlexandreAkao/demo')
-
+            dataProvider: jsonServerProvider('http://localhost:3000')
+            //dataProvider: jsonServerProvider(data)
         }
     }
 
     render() {
-        console.log(this.state.dataProvider)
-
         return (
             <Admin dataProvider={this.state.dataProvider}>
                 <Resource name="users" list={ListGuesser} />
+                <Resource name="publicacao" list={ListGuesser} />
             </Admin>
         )
     }
