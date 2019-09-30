@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.4.3",
+    "@material-ui/lab": "^4.0.0-alpha.27",
     "lowdb": "^1.0.0",
     "prop-types": "^15.7.2",
     "ra-data-json-server": "^2.9.6",
