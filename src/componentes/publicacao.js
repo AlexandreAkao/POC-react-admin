@@ -7,10 +7,10 @@ export const PublicacaoList = props => (
         <Datagrid rowClick="edit">
             <TextField source="id" />
             <TextField source="publicacao" />
-            <StarField source="quantidadeEdicao" />
+            <TextField source="quantidadeEdicao" />
             <UrlField source="edicoes" />
             <TextField source="ultimaPublicacao" />
-            <TextField source="avaliacao" />
+            <StarField source="avaliacao" />
             <TextField source="descricao" />
         </Datagrid>
     </List>
