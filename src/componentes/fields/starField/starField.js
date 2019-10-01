@@ -1,22 +1,16 @@
 import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
-// import LaunchIcon from '@material-ui/icons/Launch';
-
-
 import Rating from '@material-ui/lab/Rating';
-// import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
-
-// import StarIcon from "@material-ui/icons/Stars"
+import Typography from '@material-ui/core/Typography';
 
 const styles = {
-    link: {
-        border: 0,
+    star: {
+        margin: 0,
     },
-    icon: {
-        width: '0.5em',
-        paddingLeft: 2,
-    },
+    label: {
+        margin: '0 0 0 30%'
+    }
 };
 
 // const StarField = ({ record = {}, source, classes }) =>
@@ -27,21 +21,13 @@ const styles = {
 
 // export default withStyles(styles)(StarField);
 
-const StarField = () => {
-    const [value, setValue] = React.useState(2);
-  
+const StarField = ({ record = {}, source, classes }) => {
+    
     return (
-        <div className={styles.link}>
-            <Box component="fieldset" mb={3} borderColor="transparent">
-                <Rating
-                    name="simple-controlled"
-                    value={value}
-                    onChange={(event, newValue) => {
-                    setValue(newValue);
-                    }}
-                />
-            </Box>
-        </div>
+        <Box className={classes.star} component="fieldset" mb={3} borderColor="transparent">
+            <Typography className={classes.label} component="legend">{record.avaliacao}</Typography>
+            <Rating precision={0.1} value={2.5} readOnly />
+        </Box>
     );
 }
 
