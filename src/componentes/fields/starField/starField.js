@@ -23,6 +23,7 @@ const styles = {
 
 const StarField = ({ record = {}, source, classes }) => {
     
+    console.log({ record, source, classes })
     return (
         <Box className={classes.star} component="fieldset" mb={3} borderColor="transparent">
             <Typography className={classes.label} component="legend">{record.avaliacao}</Typography>
