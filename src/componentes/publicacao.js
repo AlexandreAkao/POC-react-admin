@@ -10,7 +10,7 @@ export const PublicacaoList = props => (
             <TextField source="quantidadeEdicao" />
             <UrlField source="edicoes" />
             <TextField source="ultimaPublicacao" />
-            <StarField source="avaliacao" />
+            <StarField  source="avaliacao" />
             <TextField source="descricao" />
         </Datagrid>
     </List>
