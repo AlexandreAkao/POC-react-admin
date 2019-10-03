@@ -27,7 +27,7 @@ const StarField = ({ record = {}, source, classes }) => {
     return (
         <Box className={classes.star} component="fieldset" mb={3} borderColor="transparent">
             <Typography className={classes.label} component="legend">{record.avaliacao}</Typography>
-            <Rating precision={0.1} value={2.5} readOnly />
+            <Rating precision={0.1} value={record.avaliacao} readOnly />
         </Box>
     );
 }

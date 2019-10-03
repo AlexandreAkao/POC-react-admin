@@ -12,7 +12,7 @@ export const PublicacaoList = props => (
             <TextField source="quantidadeEdicao" />
             <UrlField source="edicoes" />
             <TextField source="ultimaPublicacao" />
-            <ReferenceField source="userId" reference="users">
+            <ReferenceField source="avaliacao" reference="publicacao">
                 <StarField  source="avaliacao" />
             </ReferenceField>
             <TextField source="descricao" />
